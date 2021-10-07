@@ -1,0 +1,30 @@
+body {
+  background: plum;
+  font-size: 80%;
+  padding: 20px;
+}
+
+main {
+  background: white;
+  height: 52rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+main div {
+  background: pink;
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+  text-align: center;
+}

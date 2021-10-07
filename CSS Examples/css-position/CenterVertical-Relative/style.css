@@ -1,0 +1,24 @@
+main div {
+    font-size: 1rem;
+}
+
+.parent {
+    position: relative;
+    background-color: grey;
+    height: 50vh;
+    width: 80%;
+    padding: 1em;
+}
+
+.child {
+    position: absolute;
+    background-color: cyan;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    background: white;
+    font-size: 80%;
+    padding: 20px;
+}

@@ -1,0 +1,18 @@
+.root {
+    background-color: aqua;
+    padding: 1em 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: crosshair;
+}
+
+.box {
+    background-color: red;
+    margin-right: 1em;
+    /* same as:
+    border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+    */
+    border: 2px dashed green;
+}
